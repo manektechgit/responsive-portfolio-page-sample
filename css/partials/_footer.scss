@@ -1,0 +1,53 @@
+footer {
+    p {
+        text-align: center;
+        color: grey;
+        // margin: 60px auto;
+        padding: rem(60px) 0;
+        font-weight: 400;
+    }
+} 
+
+// responsive 
+@media (max-width: #{$breakpoint-medi - 1px}) {
+    header {
+        text-align: left;
+        margin: rem(100px) 0 rem(100px) rem(30px);
+        
+        h1 {
+            font-size: rem(36px);
+        }
+        
+        p {
+            font-size: rem(14px);
+            width: 90%;
+        }
+    }
+
+    .work {
+        img {
+            margin: 2%;
+            width: 90%;
+        }
+    }
+
+    .header2 {
+        margin: rem(130px) 0 rem(40px) rem(12px);
+        
+        h1 {
+            font-size: rem(32px);
+        }
+        
+        p {
+            font-size: rem(12px);
+            width: 90%;
+        }
+    }
+
+    .work2 {
+        img {
+            margin: 2%;
+        }
+    }
+
+}
